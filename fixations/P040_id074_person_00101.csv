@@ -1,0 +1,2 @@
+start_time,end_time,duration,x,y,avg_pupil_size,pupil_size_norm,weight_meme,weight_ort,weight_person,weight_politik,weight_text
+3145.061,3294.669,149.60799999999972,452.7085439725356,384.2489020390944,3.307052993774414,,0.0,0.0,1.0,0.0,0.5
