@@ -1,0 +1,155 @@
+image_id,labels_txt,strong_tags,weak_tags,meme,person,politik,ort,text,meme_weight,person_weight,politik_weight,ort_weight,text_weight
+0,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+1,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+2,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+3,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+4,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+5,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+6,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+7,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+8,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+9,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+10,meme,meme,,1,0,0,0,0,1.0,0.0,0.0,0.0,0.0
+11,ort text,"ort,text",,0,0,0,1,1,0.0,0.0,0.0,1.0,1.0
+12,ort text,"ort,text",,0,0,0,1,1,0.0,0.0,0.0,1.0,1.0
+13,ort text,"ort,text",,0,0,0,1,1,0.0,0.0,0.0,1.0,1.0
+14,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+15,ort (text),ort,text,0,0,0,1,1,0.0,0.0,0.0,1.0,0.5
+16,ort text,"ort,text",,0,0,0,1,1,0.0,0.0,0.0,1.0,1.0
+17,ort text,"ort,text",,0,0,0,1,1,0.0,0.0,0.0,1.0,1.0
+18,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+19,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+20,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+21,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+22,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+23,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+24,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+25,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+26,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+27,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+28,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+29,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+30,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+31,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+32,ort,ort,,0,0,0,1,0,0.0,0.0,0.0,1.0,0.0
+33,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+34,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+35,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+36,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+37,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+38,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+39,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+40,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+41,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+42,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+43,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+44,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+45,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+46,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+47,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+48,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+49,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+50,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+51,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+52,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+53,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+54,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+55,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+56,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+57,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+58,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+59,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+60,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+61,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+62,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+63,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+64,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+65,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+66,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+67,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+68,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+69,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+70,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+71,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+72,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+73,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+74,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+75,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+76,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+77,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+78,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+79,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+80,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+81,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+82,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+83,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+84,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+85,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+86,person,person,,0,1,0,0,0,0.0,1.0,0.0,0.0,0.0
+87,person (text),person,text,0,1,0,0,1,0.0,1.0,0.0,0.0,0.5
+88,person text politik,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+89,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+90,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+91,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+92,person politik (text),"person,politik",text,0,1,1,0,1,0.0,1.0,1.0,0.0,0.5
+93,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+94,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+95,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+96,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+97,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+98,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+99,person politik text,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+100,person politik text,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+101,person politik,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+102,person politik (text),"person,politik",text,0,1,1,0,1,0.0,1.0,1.0,0.0,0.5
+103,politik person,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+104,politik person,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+105,politik person,"person,politik",,0,1,1,0,0,0.0,1.0,1.0,0.0,0.0
+106,meme text (politik),"meme,text",politik,1,0,1,0,1,1.0,0.0,0.5,0.0,1.0
+107,politik person text meme,"meme,person,politik,text",,1,1,1,0,1,1.0,1.0,1.0,0.0,1.0
+108,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+109,meme text politik,"meme,politik,text",,1,0,1,0,1,1.0,0.0,1.0,0.0,1.0
+110,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+111,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+112,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+113,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+114,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+115,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+116,meme text politik,"meme,politik,text",,1,0,1,0,1,1.0,0.0,1.0,0.0,1.0
+117,meme text politik,"meme,politik,text",,1,0,1,0,1,1.0,0.0,1.0,0.0,1.0
+118,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+119,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+120,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+121,meme text,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+122,meme text politik,"meme,politik,text",,1,0,1,0,1,1.0,0.0,1.0,0.0,1.0
+123,meme text politik,"meme,politik,text",,1,0,1,0,1,1.0,0.0,1.0,0.0,1.0
+124,meme text politik,"meme,politik,text",,1,0,1,0,1,1.0,0.0,1.0,0.0,1.0
+125,text meme,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+126,text politik,"politik,text",,0,0,1,0,1,0.0,0.0,1.0,0.0,1.0
+127,text politik,"politik,text",,0,0,1,0,1,0.0,0.0,1.0,0.0,1.0
+128,text (ort),text,ort,0,0,0,1,1,0.0,0.0,0.0,0.5,1.0
+129,text (ort),text,ort,0,0,0,1,1,0.0,0.0,0.0,0.5,1.0
+130,text (ort),text,ort,0,0,0,1,1,0.0,0.0,0.0,0.5,1.0
+131,text person (politik),"person,text",politik,0,1,1,0,1,0.0,1.0,0.5,0.0,1.0
+132,text person,"person,text",,0,1,0,0,1,0.0,1.0,0.0,0.0,1.0
+133,text person,"person,text",,0,1,0,0,1,0.0,1.0,0.0,0.0,1.0
+134,text politik (person),"politik,text",person,0,1,1,0,1,0.0,0.5,1.0,0.0,1.0
+135,text person politik (meme),"person,politik,text",meme,1,1,1,0,1,0.5,1.0,1.0,0.0,1.0
+136,text person politik,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+137,text person politik,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+138,text person politik,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+139,text person politik,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+140,text person politik,"person,politik,text",,0,1,1,0,1,0.0,1.0,1.0,0.0,1.0
+141,text meme politik,"meme,politik,text",,1,0,1,0,1,1.0,0.0,1.0,0.0,1.0
+142,text,text,,0,0,0,0,1,0.0,0.0,0.0,0.0,1.0
+143,text,text,,0,0,0,0,1,0.0,0.0,0.0,0.0,1.0
+144,text,text,,0,0,0,0,1,0.0,0.0,0.0,0.0,1.0
+145,text,text,,0,0,0,0,1,0.0,0.0,0.0,0.0,1.0
+146,text politik,"politik,text",,0,0,1,0,1,0.0,0.0,1.0,0.0,1.0
+147,text meme,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+148,text meme,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+149,text meme,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+150,text meme,"meme,text",,1,0,0,0,1,1.0,0.0,0.0,0.0,1.0
+151,text meme (politik),"meme,text",politik,1,0,1,0,1,1.0,0.0,0.5,0.0,1.0
+152,text meme (politik),"meme,text",politik,1,0,1,0,1,1.0,0.0,0.5,0.0,1.0
+153,text meme (politik),"meme,text",politik,1,0,1,0,1,1.0,0.0,0.5,0.0,1.0
