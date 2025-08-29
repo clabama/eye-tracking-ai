@@ -1,6 +1,5 @@
 cluster,top_positive_features,top_negative_features
-0,"BCEA_68_mean (+1.19), BCEA_95_mean (+1.19), pupil_size_norm_mean (+1.09)","fixation_duration_median_approx (-0.72), fix_dur_mean_first_third (-0.62), fixation_duration_mean_weighted (-0.55)"
-1,"fixation_duration_median_approx (+0.76), fix_dur_mean_first_third (+0.74), fixation_duration_mean_weighted (+0.65)","n_fix_first_third (-0.66), number_of_fixations (-0.61), n_fix_last_third (-0.55)"
-2,"view_time_total_sum (+1.70), n_fix_last_third (+1.68), number_of_fixations (+1.64)","fix_dur_mean_last_third (-1.23), fixation_duration_mean_weighted (-1.13), fixation_duration_median_approx (-0.98)"
-3,"fix_dur_mean_last_third (+1.44), fix_dur_mean_first_third (+1.39), fixation_duration_mean_weighted (+1.37)","n_fix_first_third (-1.02), scanpath_length_mean (-1.00), number_of_fixations (-0.93)"
-4,"pupil_size_norm_std (+0.00), fix_dur_mean_last_third (+-0.04), n_fix_first_third (+-0.13)","pupil_size_norm_mean (-1.37), BCEA_68_mean (-1.19), BCEA_95_mean (-1.19)"
+0,"pupil_mm_std (+1.38), pupil_mm_mean (+1.32), fix_dur_mean_last_third_ms (+1.26)","bcea95_mean_px2 (-1.16), bcea68_mean_px2 (-1.16), pupil_norm_rms (-1.03)"
+1,"view_time_total_sum_ms (+1.41), fixations_last_third (+1.39), avg_pupil_size_n (+1.37)","pupil_norm_abs_mean (-1.32), fixation_duration_mean_ms (-1.06), fix_dur_mean_last_third_ms (-1.05)"
+2,"pupil_norm_abs_mean (+0.53), fixation_duration_median_ms (+0.51), fixation_duration_mean_ms (+0.43)","pupil_size_norm_n (-0.58), avg_pupil_size_n (-0.58), fixations_total (-0.58)"
+3,"bcea68_mean_px2 (+0.96), bcea95_mean_px2 (+0.96), pupil_norm_rms (+0.38)","fix_dur_mean_first_third_ms (-0.71), fixation_duration_median_ms (-0.69), pupil_mm_mean (-0.69)"
