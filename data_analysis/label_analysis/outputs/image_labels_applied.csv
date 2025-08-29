@@ -1,0 +1,153 @@
+image_id,cluster,applied_label
+001,1,meme
+002,3,meme
+003,3,meme
+004,1,meme
+005,1,meme
+006,1,meme
+007,1,meme
+008,3,meme
+009,1,meme
+010,1,meme
+011,4,ort text
+012,2,ort text
+013,4,ort text
+014,1,ort
+015,3,ort (text)
+016,4,ort text
+017,4,ort text
+018,3,ort
+019,3,ort
+020,3,ort
+021,1,ort
+022,3,ort
+023,3,ort
+024,3,ort
+025,1,ort
+026,1,ort
+027,3,ort
+028,3,ort
+029,3,ort
+030,3,ort
+031,3,ort
+032,3,ort
+033,0,person (text)
+034,1,person (text)
+035,3,person
+036,3,person
+037,3,person
+038,3,person
+039,1,person
+040,1,person
+041,1,person
+042,3,person
+043,1,person
+044,3,person
+045,1,person
+046,3,person
+047,1,person
+048,1,person
+049,1,person
+050,0,person
+051,3,person
+052,1,person
+053,3,person
+054,3,person
+055,1,person
+056,1,person
+057,1,person
+058,1,person
+059,3,person
+060,3,person
+061,3,person
+062,1,person
+063,1,person
+064,3,person
+065,3,person
+066,1,person
+067,3,person
+068,1,person
+069,1,person
+070,3,person
+071,3,person
+072,3,person
+073,3,person
+074,3,person (text)
+075,3,person
+076,3,person (text)
+077,3,person
+078,1,person
+079,1,person
+080,1,person
+081,3,person
+082,1,person (text)
+083,1,person
+084,3,person (text)
+085,3,person (text)
+086,3,person
+087,1,person (text)
+088,0,person text politik
+089,1,person politik
+090,3,person politik
+091,1,person politik
+092,1,person politik (text)
+093,3,person politik
+094,1,person politik
+095,3,person politik
+096,3,person politik
+097,3,person politik
+098,1,person politik
+099,1,person politik text
+100,0,person politik text
+101,3,person politik
+102,3,person politik (text)
+103,3,politik person
+104,3,politik person
+105,0,politik person
+106,0,meme text (politik)
+107,0,politik person text meme
+108,2,meme text
+109,0,meme text politik
+110,1,meme text
+111,1,meme text
+112,4,meme text
+113,0,meme text
+114,0,meme text
+115,4,meme text
+116,0,meme text politik
+117,0,meme text politik
+118,0,meme text
+119,0,meme text
+120,0,meme text
+121,4,meme text
+122,0,meme text politik
+123,4,meme text politik
+124,0,meme text politik
+125,0,text meme
+126,4,text politik
+127,0,text politik
+128,4,text (ort)
+129,4,text (ort)
+130,0,text (ort)
+131,0,text person (politik)
+132,4,text person
+133,0,text person
+134,0,text politik (person)
+135,3,text person politik (meme)
+136,2,text person politik
+137,1,text person politik
+138,4,text person politik
+139,0,text person politik
+140,4,text person politik
+141,2,text meme politik
+142,4,text
+143,0,text
+144,2,text
+146,2,text politik
+147,2,text meme
+148,0,text meme
+149,2,text meme
+150,2,text meme
+151,2,text meme (politik)
+152,2,text meme (politik)
+153,2,text meme (politik)
