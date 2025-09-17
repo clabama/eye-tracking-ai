@@ -14,49 +14,25 @@ This repository contains Jupyter notebooks and helper files for **processing and
 
 ---
 
-### `data_analysis/`
+### `analysis_pipeline/`
 
-- **pupilsize_exploration.ipynb**  
-  Aggregates normalized pupil sizes from the fixation files by image category and outputs statistical summaries and boxplots.  
-  _(Visualization only, no files written)._
+Modular Python package that powers the confirmatory analysis workflow:
 
----
+- **data_loading.py** – builds participant-level metric tables from the processed fixation CSVs and merges them with label metadata.
+- **metrics.py** – reusable metric computation helpers (fixation counts, scanpath length, pupil metrics, etc.).
+- **hierarchy.py** – aggregates metrics hierarchically (all images → single labels → label combinations) with baseline deltas normalised by the 49 participants.
+- **clustering.py** – PCA + k-means helpers for discovering label clusters in the metric space.
+- **statistics.py** – confirmatory statistical tests (ANOVA, Kruskal-Wallis, pairwise post-hoc comparisons, effect sizes).
+- **visualization.py** – Plotly-based plotting utilities for metric deltas, distributions, and clustering views.
+- **gui.py** – Streamlit application that exposes the full exploratory-to-confirmatory workflow interactively.
 
-### `preprocessing/`
+### Example notebooks
 
-- **data_processed.ipynb**
+- **notebooks/confirmatory_analysis_example.ipynb** – step-by-step demonstration of loading metrics, building hierarchical summaries, running statistical tests, and exploring clustering.
 
-  - Reads raw CSV files
-  - Converts timestamps to milliseconds
-  - Filters and interpolates gaze data
-  - Normalizes pupil size
-  - Detects fixations using the I-DT algorithm
-  - Saves results:
-    - Cleaned files as `*_processed.csv`
-    - Fixations under `processed/fixations/` as `*_fixations.csv`
+### Legacy notebooks
 
-- **names_fixed.ipynb** – Scans the raw directory for files matching `ProbandXX_idYY`, renames them to `PXXX_idYY_category` while avoiding number collisions. Trailing underscore files are removed.
-- **renaming.ipynb** – Currently empty; reserved for future renaming utilities.
-
----
-
-### `visualization/`
-
-- **heatmaps.ipynb**  
-  Builds heatmaps from fixation files (`x`, `y` columns), smoothed with a Gaussian kernel.
-
-  - Outputs to `processed/heatmaps/`
-  - Flattens all heatmaps, reduces them via PCA, and performs hierarchical clustering to visualize clusters and their average heatmaps.
-
-- **scanpaths.ipynb**  
-  Loads each `*_fixations.csv`, sorts fixations by start time, and plots the temporal sequence of gaze positions.
-
-  - Outputs to `processed/scanpaths/` as `*_scanpath.png`
-
-- **heatmaps/** – Directory of generated heatmap images.
-- **scanpaths/** – Directory of generated scanpath visualizations.
-
----
+- The previous exploratory notebooks are still available under `data_analysis/`, `preprocessing/`, and `visualization/` for reference.
 
 ## Setup
 
@@ -112,3 +88,17 @@ This repository contains Jupyter notebooks and helper files for **processing and
 
 Each notebook can be executed independently to perform its step in the pipeline.  
 Run them within **Jupyter Notebook** or **JupyterLab**; outputs are written to the respective `processed/` subdirectories.
+
+---
+
+## Confirmatory analysis workflow
+
+1. **Generate metrics** – Ensure the processed fixation CSVs live under `fixations/` and labels are recorded in `labels_per_id.csv`. The new `analysis_pipeline` package will normalise per-participant metrics automatically.
+2. **Interactive GUI** – Launch the Streamlit interface:
+   ```bash
+   streamlit run analysis_pipeline/gui.py
+   ```
+   The app starts from the full dataset baseline, then lets you drill into single labels and label combinations, visualises metric deltas, displays PCA/k-means clustering, and runs confirmatory statistics with effect sizes.
+3. **Notebook workflow** – Open `notebooks/confirmatory_analysis_example.ipynb` to see the same steps scripted in Python for reproducible reports.
+
+The reusable functions allow you to compose additional scripts or dashboards without rewriting metric calculations, making it straightforward to test hypotheses on the existing dataset and future data collections.
